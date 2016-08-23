@@ -10,7 +10,6 @@ if(isset($_POST["act"]))
 	$mota = $_POST['mota'];
 	$gia=$_POST["gia"];$ghichu=$_POST["ghichu"];
 	$kd=khongdau2($_POST["tensp"]);
-	$id=md5($kd);
 	$kt="select count(*) from sanpham where id='$id'";
 	$kq_kt=mysql_query($kt);
 	$r_kt=mysql_fetch_array($kq_kt);
