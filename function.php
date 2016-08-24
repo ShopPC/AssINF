@@ -5,6 +5,7 @@ function checkquyentruycap_bang($mucbang)
 	if ($sscapquyen!=$mucbang)
 	 	echo "<script>alert('Không có quyền truy cập vào phần quản lý này.'); window.location='index.php';</script>";
 }
+//abacacacc
 function EncodeSpecialChar($content) {  //insert table
 	$content = trim($content);
 	$content = addslashes($content);
