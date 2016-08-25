@@ -23,4 +23,5 @@
 	{
 		echo "<script language=\"javascript\">box('0');</script>";
 	}
+	/* Đây là ahiih */
 ?>
